@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/allied intuit-03.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <title>Vite App</title>
+    <title>cskycsky</title>
   </head>
   <body>
     <section class="section-one">
-      <nav class="flex justify-center flex-columns w-[80%] mx-auto pt-4">
-        <div class="logo w-[30%]"><img class="w-[80%]" src="./assets/allied intuit-03.png" alt=""></div>
-        <ul class="flex justify-center flex-columns w-[70%] items-center gap-5">
+      <nav class="flex justify-between md:justify-center w-full md:w-[90%] mx-auto p-3 md:pt-4">
+        <div class="logo w-[50%] md:w-[30%]"><img class="w-[80%]" src="./assets/allied intuit-03.png" alt=""></div>
+        <div class="bar md:hidden w-[40px] h-[40px]">
+          <img src="./assets/bar.png" alt="">
+        </div>
+        <ul class="navbar opacity-0 md:opacity-100 absolute top-0 left-[-2%] bg-[#061636] p-4 md:p-0 md:bg-transparent text-white md:text-black md:relative md:flex justify-center flex-col md:flex-row w-[70%] items-center gap-5">
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Transformation</a></li>
@@ -22,14 +25,14 @@
         </ul>
       </nav>
       <div class="content">
-        <img class="w-full h-[90vh]" src="./assets/Image1c.png" alt="">
-        <h1 class="absolute top-[50%] left-[25%] text-[3rem] font-bold">IP Management and Enablement</h1>
+        <img class="object-cover w-full h-[675px] md:h-[90vh]" src="./assets/Image1c.png" alt="">
+        <h1 class="absolute top-[70%] md:top-[50%] md:left-[25%] text-[1.6rem] text-center md:text-[3rem] font-bold">IP Management and Enablement</h1>
       </div>
     </section>
-    <section class="section-two w-[80%] mx-auto flex justify-center flex-columns items-center gap-4 mt-[8%]">
-      <div class="about-text w-[50%]">
-        <h1 class="text-[2rem] font-bold">About Us</h1>
-        <p class="text-[1rem] mt-[5%]"><span class="font-bold">Tell us what you want to achieve and let us show you the possibilities.</span> <br><br>
+    <section class="section-two w-[90%] md:w-[80%] mx-auto flex justify-center flex-col-reverse md:flex-row items-center gap-4 mt-[10%] md:mt-[8%]">
+      <div class="about-text md:w-[50%]">
+        <h1 class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">About Us</h1>
+        <p class="text-[0.8rem] md:text-[1rem] text-center md:text-left mt-[5%]"><span class="font-bold">Tell us what you want to achieve and let us show you the possibilities.</span> <br><br>
 
           Allied Intuit started out as a platform to educate innovators and enterprises across a wide spectrum of industries and tech space on the relevance of Intellectual Property (IP) to their commercial objectives. <br><br>
           
@@ -37,18 +40,18 @@
           
           We strive to continue utilizing our capabilities to assist others in achieving organizational growth.</p>
       </div>
-      <div class="about-img w-[50%]">
+      <div class="about-img md:w-[50%]">
         <img class="w-[100%]" src="./assets/About-img.png" alt="">
       </div>
     </section>
-    <section class="section-three w-[80%] mx-auto mt-[12%]">
-      <h1 class="text-center text-[2rem] font-bold">Transformation</h1>
-      <div class="flex justify-center flex-columns items-center gap-4 mt-[2%]">
-        <div class="transformation-img w-[50%]">
+    <section class="section-three w-[90%] md:w-[80%] mx-auto mt-[15%] md:mt-[12%]">
+      <h1 class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">Transformation</h1>
+      <div class="flex justify-center flex-col md:flex-row items-center gap-4 mt-[2%]">
+        <div class="transformation-img md:w-[50%]">
           <img class="w-[100%]" src="./assets/Transformation-img.png" alt="">
         </div>
-        <div class="transformation-text w-[50%]">
-          <p class="text-[1rem]">Allied has partnered with organisations to identify commercially sensible innovations and know-how; and implement IP strategies and processes to supercharge commercialization and business growth. <br><br>
+        <div class="transformation-text md:w-[50%]">
+          <p class="text-[0.8rem] md:text-[1rem] text-center md:text-left">Allied has partnered with organisations to identify commercially sensible innovations and know-how; and implement IP strategies and processes to supercharge commercialization and business growth. <br><br>
   
             Our success lies in our ability to align the IP and IP portfolio of an organisation with its business model, vision and potential pivots.<br><br>
             
@@ -58,6 +61,169 @@
         </div>
       </div>
     </section>
+    <section class="section-four w-[90%] md:w-[80%] mx-auto mt-[12%]">
+      <h1 id="service-h1" class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">Service</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 justify-center gap-4 mt-[2%]">
+        <div class="service-card md:w-[544px] md:h-[349px] p-4">
+          <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Protect and Manage IP</h1>
+          <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
+            Patent Specification Preparation/Drafting <br>
+            Patent Application Submission and Registration <br>
+            International (PCT) Patent Application <br>
+            National phase entries <br>
+            Patent Objection / Trademark Objection Advisory <br>
+            Design Registration <br>
+            Trademark Registration
+          </p>
+        </div>
+        <div class="service-card md:w-[544px] md:h-[349px] p-4">
+          <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Understand & Navigate IP Landscape</h1>
+          <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
+            Brand architecture and collateral IP advisory <br>
+            Patent landscape searches <br>
+            Invention / Innovation Capture <br>
+            Establish innovation / patenting pipeline <br>
+            IP training and team capability buildin <br>
+          </p>
+        </div>
+        <div class="service-card md:w-[544px] md:h-[349px] p-4">
+          <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Manage IP Risk</h1>
+          <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
+            Freedom-to-Operate (FTO) assesmdent <br>
+            Infringement assesmdent <br>
+            Product clearance <br>
+            Invalidation searches <br>
+            Workaround advisory <br>
+          </p>
+        </div>
+        <div class="service-card md:w-[544px] md:h-[349px] p-4">
+          <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Enable Your IP</h1>
+          <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
+            IP portfolio management <br>
+            Licensing and mdart Franchise System Advisory <br>
+            IP Rights creation and management for ESG compliance <br>
+            IP advisory for capability development, market readiness and <br> competitive grants <br>
+            IP risk assesmdent for acquisition and investment <br>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-five w-full h-full mx-auto mt-[12%] pb-[100px]">
+      <h1 class="text-[1.5rem] text-center md:text-left md:text-[40px] text-white font-bold pt-[100px]">Tech Sector Experience</h1>
+      <p class="text-center text-[0.8rem] md:text-[1rem] text-white w-[60%] md:w-[30%] mx-auto leading-6 mt-[15px]">We have experience in working with companies and individuals in the following sectors</p>
+      <div class="flex justify-center flex-col md:flex-row items-center gap-x-8 mt-[15%] md:mt-[2%]">
+        <div class="experience-text w-[95%] md:w-[544px] md:h-[313px] p-4 md:p-8">
+          <p class="text-[0.8rem] md:text-[16px] leading-8">
+            Robotics, automation and mechanimd-control tech  <br>
+            Manufacturing and Supply-chain processes <br>
+            Semiconductors and Electronics <br>
+            Energy and Clean-Tech <br>
+            Biotech, Med-tech and Healthcare <br>
+            Energy conversion and Wind-tech <br>
+            Transportation
+          </p>
+        </div>
+        <div class="mt-[5%] md:mt-0 experience-text-2 w-[95%] md:w-[544px] md:h-[313px] p-4 md:p-8">
+          <p class="text-[0.8rem] md:text-[16px] leading-8">
+            Artificial Intelligence (AI) and Machine Learning <br>
+            IoT (Internet of Things) <br>
+            Fintech, mdart Contracts and Digital Transformation <br>
+            E-commerce, RPA and Online Services: <br>
+            Consumer Products, Packaging and Consumer Services <br>
+            Environmental and Green Technologies <br>
+            Food and Agri-tech <br>
+            Edu-tech
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-six w-[90%] md:w-[80%] mx-auto mt-[12%]">
+      <h1 class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">Key Profile</h1>
+      <div class="flex justify-center flex-col-reverse md:flex-row items-center gap-4 mt-[50px]">
+        <div class="transformation-text md:w-[50%]">
+          <h1 class="leading-10 font-bold text-[1.5rem] md:text-[32px]">
+            Charlie SIM <br>
+            <span class="text-[1rem] md:text-[24px] font-medium">
+              Managing Director <br>
+              charliesim@alliedintuit.com <br>
+            </span>
+          </h1>
+          <h1 class="leading-7 mt-[30px] font-semibold text[0.8rem] md:text-[20px]">
+            Qualifications <br>
+            <span class="text-[0.75rem] md:text-[16px] font-normal">
+              Registered Patent Attorney (Singapore) <br>
+              Master of Engineering <br>
+              Bachelor of Laws (Hons) <br>
+              Advance Certificate in Training and Assesmdent (ACTA) <br>
+              Certifications in AI, mdart Contract and Fintech Development <br>
+            </span>
+          </h1>
+          <h1 class="leading-7 mt-[30px] font-semibold text[0.8rem] md:text-[20px]">
+            Background <br>
+            <span class="text-[0.75rem] md:text-[16px] font-normal">
+              Medical technology and robotics research and development Inventor <br> 
+              (tech related to voice recognition,proton-exchange membranes  <br>
+              and OID) Mentor and juror for various enterprise awards and start-up  <br>
+              competitions and hackathons IP and commercialisation advisor for  <br>
+              organisations ranging from startups to the Fortune-ranked Successful  <br>
+              innovation extraction and IP risk management for ESG-transitional  <br>
+              companies and pre-listcos
+            </span>
+          </h1>
+        </div>
+        <div class="transformation-img md:w-[50%]">
+            <img class="w-[100%]" src="./assets/Profile-img.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="section-seven w-[90%] md:w-[80%] mx-auto mt-[12%]">
+      <div class="flex justify-center flex-col md:flex-row items-center gap-4 mt-[50px]">
+        <div class="Contact-text w-[90%] md:w-[50%]">
+          <h1 class="leading-10 font-bold text-center md:text-left text-[1.5rem] md:text-[40px]">
+            Contact Us <br>
+          </h1>
+          <h1 class="leading-6 font-medium text-center md:text-left mt-[30px] text-[0.8rem] md:text-[16px] md:w-[544px] md:h-[468px]">
+            Please send all correspondences to: <br>
+            Allied Intuit Pte Ltd <br>
+            73 Ubi Road 1, Oxley Bizhub <br>
+            #08-51, S408733<br><br>
+
+            Email enquiries to be sent to: mail@alliedintuit.com<br><br>
+
+            Leave us your contact details and let us get back to you<br>
+          </h1>
+        </div>
+        <div class="transformation-img mt-[10%] md:mt-0 md:w-[50%]">
+          <div class="w-[358px] md:w-[544px] h-[625px] md:h-[546px] bg-[#061636]">
+            <form class="flex justify-center items-center gap-5 mt-[10%] flex-col" action="">
+              <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Name*">
+              <input type="text" name="phoneNumber" id="phoneNumber" autocomplete="Phone Number" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Phone no*">
+              <input type="text" name="email" id="email" autocomplete="email" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Email*" required>
+              <input type="text" name="companyName" id="companyName" autocomplete="companyName" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Company Name*">
+              <div class="mt-2">
+                <textarea id="about" name="about" rows="3" class="block w-[300px] md:w-[350px] rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+              </div>
+              <button type="submit" class="rounded-sm border-[1px] px-[37%] md:px-[30%] py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer mt-[12%] w-[90%] md:w-[80%] mx-auto">
+      <nav class="flex justify-center items-center flex-col md:flex-row pt-4">
+        <div class="logo w-[50%] md:w-[30%]"><img class="md:w-[80%]" src="./assets/allied intuit-03.png" alt=""></div>
+        <ul class="flex justify-center flex-col md:flex-row w-[70%] mt-[10%] md:mt-0 items-center gap-3 md:gap-5">
+          <li><a class="text-[0.75rem]" href="#">Home</a></li>
+          <li><a class="text-[0.75rem]" href="#">About Us</a></li>
+          <li><a class="text-[0.75rem]" href="#">Transformation</a></li>
+          <li><a class="text-[0.75rem]" href="#">Services</a></li>
+          <li><a class="text-[0.75rem]" href="#">Experience</a></li>
+          <li><a class="text-[0.75rem]" href="#">Key Profile</a></li>
+          <li><a class="text-[0.75rem]" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1 class="font-normal text-[0.75rem] text-center md:text-left md:text-[16px] leading-6 mt-[52px] mb-[50px]">© Copyright Allied Intuit 2023. All Rights Reserved</h1>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
