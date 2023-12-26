@@ -31,7 +31,7 @@ a{
 }
 
 .section-five{
-  background-image: url("./assets/Experience-img.png");
+  background-image: url("/Experience-img.png");
   background-position: center;
   background-size: cover;
 }
