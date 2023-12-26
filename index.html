@@ -5,10 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <title>cskycsky</title>
+    <title>Allied Intuit</title>
   </head>
   <body>
-    <section class="section-one">
+    <section id="home" class="section-one">
       <nav class="flex justify-between md:justify-center w-full md:w-[90%] mx-auto p-3 md:pt-4">
         <div class="logo w-[50%] md:w-[30%]"><img class="w-[80%]" src="./assets/allied intuit-03.png" alt=""></div>
         <div class="bar md:hidden w-[40px] h-[40px]">
@@ -16,12 +16,12 @@
         </div>
         <ul class="navbar opacity-0 md:opacity-100 absolute top-0 left-[-2%] bg-[#061636] p-4 md:p-0 md:bg-transparent text-white md:text-black md:relative md:flex justify-center flex-col md:flex-row w-[70%] items-center gap-5">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Transformation</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Key Profile</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#transformation">Transformation</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#key-profile">Key Profile</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
       <div class="content">
@@ -29,14 +29,14 @@
         <h1 class="absolute top-[70%] md:top-[50%] md:left-[15%] lg:left-[25%] sm:left-[25%] text-[1.6rem] text-center md:text-[3rem] font-bold">IP Management and Enablement</h1>
       </div>
     </section>
-    <section class="section-two w-[90%] md:w-[80%] mx-auto flex justify-center flex-col-reverse md:flex-row items-center gap-4 mt-[10%] md:mt-[8%]">
+    <section id="about-us" class="section-two w-[90%] md:w-[80%] mx-auto flex justify-center flex-col-reverse md:flex-row items-center gap-4 mt-[10%] md:mt-[8%]">
       <div class="about-text md:w-[50%]">
         <h1 class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">About Us</h1>
         <p class="text-[0.8rem] md:text-[1rem] text-center md:text-left mt-[5%]"><span class="font-bold">Tell us what you want to achieve and let us show you the possibilities.</span> <br><br>
 
           Allied Intuit started out as a platform to educate innovators and enterprises across a wide spectrum of industries and tech space on the relevance of Intellectual Property (IP) to their commercial objectives. <br><br>
           
-          Over the past decade, we have journeyed with of these innovators and enterprises to transform know-how into competitive advantage through not only our IP agency and management services, but also through commercially-minded IP extraction and creation and IP enablement assistance. <br><br>
+          Over the past decade, we have journeyed with these innovators and enterprises to transform know-how into competitive advantage through not only our IP agency and management services, but also through commercially-minded IP extraction and creation and IP enablement assistance. <br><br>
           
           We strive to continue utilizing our capabilities to assist others in achieving organizational growth.</p>
       </div>
@@ -44,7 +44,7 @@
         <img class="w-[100%] md:h-full" src="./assets/About-img.png" alt="">
       </div>
     </section>
-    <section class="section-three w-[90%] md:w-[80%] mx-auto mt-[15%] md:mt-[12%]">
+    <section id="transformation" class="section-three w-[90%] md:w-[80%] mx-auto mt-[15%] md:mt-[12%]">
       <h1 class="text-[1.5rem] md:text-[2rem] text-center font-bold">Transformation</h1>
       <div class="flex justify-center flex-col md:flex-row items-center gap-4 mt-[2%]">
         <div class="transformation-img md:w-[50%]">
@@ -61,9 +61,9 @@
         </div>
       </div>
     </section>
-    <section class="section-four w-[90%] md:w-[80%] mx-auto mt-[12%]">
+    <section id="services" class="section-four w-[90%] md:w-[80%] mx-auto mt-[12%]">
       <h1 id="service-h1" class="text-[1.5rem] md:text-[2rem] text-center font-bold">Service</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 justify-center gap-4 mt-[2%]">
+      <div class="mx-auto p-4 grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 justify-center gap-4 mt-[2%]">
         <div class="service-card lg:w-[544px] lg:h-[349px] p-4">
           <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Protect and Manage IP</h1>
           <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
@@ -83,14 +83,14 @@
             Patent landscape searches <br>
             Invention / Innovation Capture <br>
             Establish innovation / patenting pipeline <br>
-            IP training and team capability buildin <br>
+            IP training and team capability building <br>
           </p>
         </div>
         <div class="service-card lg:w-[544px] lg:h-[349px] p-4">
           <h1 class="font-bold text-[1rem] md:text-[1.5rem] text-center mb-[30px]">Manage IP Risk</h1>
           <p class="text-[0.8rem] md:text-[1rem] text-center leading-8">
-            Freedom-to-Operate (FTO) assesmdent <br>
-            Infringement assesmdent <br>
+            Freedom-to-Operate (FTO) assessment <br>
+            Infringement assessment <br>
             Product clearance <br>
             Invalidation searches <br>
             Workaround advisory <br>
@@ -108,13 +108,13 @@
         </div>
       </div>
     </section>
-    <section class="section-five w-full h-full mx-auto mt-[12%] pb-[100px]">
+    <section id="experience" class="section-five w-full h-full mx-auto mt-[12%] pb-[100px]">
       <h1 class="text-[1.5rem] text-center md:text-[40px] text-white font-bold pt-[100px]">Tech Sector Experience</h1>
       <p class="text-center text-[0.8rem] md:text-[1rem] text-white w-[60%] md:w-[30%] mx-auto leading-6 mt-[15px]">We have experience in working with companies and individuals in the following sectors</p>
       <div class="md:w-[95%] lg:w-full mx-auto flex justify-center flex-col md:flex-row items-center gap-x-8 mt-[15%] md:mt-[2%]">
         <div class="experience-text w-[95%] sm:w-[80%] md:w-[544px] md:h-[313px] p-4 md:p-4">
           <p class="text-[0.8rem] md:text-[16px] leading-8">
-            Robotics, automation and mechanimd-control tech  <br>
+            Robotics, automation and mechanism-control tech  <br>
             Manufacturing and Supply-chain processes <br>
             Semiconductors and Electronics <br>
             Energy and Clean-Tech <br>
@@ -127,7 +127,7 @@
           <p class="text-[0.8rem] md:text-[16px] leading-8">
             Artificial Intelligence (AI) and Machine Learning <br>
             IoT (Internet of Things) <br>
-            Fintech, mdart Contracts and Digital Transformation <br>
+            Fintech, Smart Contracts and Digital Transformation <br>
             E-commerce, RPA and Online Services: <br>
             Consumer Products, Packaging and Consumer Services <br>
             Environmental and Green Technologies <br>
@@ -137,7 +137,7 @@
         </div>
       </div>
     </section>
-    <section class="section-six w-[90%] md:w-[80%] mx-auto mt-[12%]">
+    <section id="key-profile" class="section-six w-[90%] md:w-[80%] mx-auto mt-[12%]">
       <h1 class="text-[1.5rem] md:text-[2rem] text-center md:text-left font-bold">Key Profile</h1>
       <div class="flex justify-center flex-col-reverse md:flex-row items-center gap-4 mt-[50px]">
         <div class="transformation-text md:w-[50%] sm:w-[80%]">
@@ -155,18 +155,17 @@
               Master of Engineering <br>
               Bachelor of Laws (Hons) <br>
               Advance Certificate in Training and Assesmdent (ACTA) <br>
-              Certifications in AI, mdart Contract and Fintech Development <br>
+              Certifications in AI, Smart Contrac and Fintech Development <br>
             </span>
           </h1>
           <h1 class="leading-7 mt-[30px] font-semibold text[0.8rem] md:text-[20px]">
             Background <br>
             <span class="text-[0.75rem] md:text-[16px] font-normal">
-              Medical technology and robotics research and development Inventor <br> 
-              (tech related to voice recognition,proton-exchange membranes  <br>
-              and OID) Mentor and juror for various enterprise awards and start-up  <br>
-              competitions and hackathons IP and commercialisation advisor for  <br>
-              organisations ranging from startups to the Fortune-ranked Successful  <br>
-              innovation extraction and IP risk management for ESG-transitional  <br>
+              Medical technology and robotics research and development <br>
+              Inventor (tech related to voice recognition,proton-exchange membranes and OID) <br>
+              Mentor and juror for various enterprise awards and start-up competitions and hackathons <br>
+              IP and commercialisation advisor for organisations ranging from startups to the Fortune-ranked <br>
+              Successful innovation extraction and IP risk management for ESG-transitional  <br>
               companies and pre-listcos
             </span>
           </h1>
@@ -176,10 +175,10 @@
         </div>
       </div>
     </section>
-    <section class="section-seven w-[90%] md:w-[80%] mx-auto mt-[12%]">
+    <section id="contact-us" class="section-seven w-[90%] md:w-[80%] mx-auto mt-[12%]">
       <div class="flex justify-center flex-col md:flex-row items-center gap-4 mt-[50px]">
         <div class="Contact-text w-[90%] md:w-[50%]">
-          <h1 class="leading-10 font-bold text-center md:text-left text-[1.5rem] lg:text-[40px]">
+          <h1 class="leading-8 overflow-hidden font-bold text-center md:text-left text-[1.5rem] lg:text-[40px]">
             Contact Us <br>
           </h1>
           <h1 class="leading-6 font-medium text-center md:text-left mt-[30px] text-[0.8rem] md:text-[16px] md:w-[304px] lg:w-[544px] md:h-[468px]">
@@ -197,13 +196,13 @@
           <div class="w-[358px] lg:w-[544px] h-[625px] lg:h-[546px] md:h-[506px] bg-[#061636]">
             <form class="flex justify-center items-center gap-5 mt-[10%] flex-col" action="">
               <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Name*">
-              <input type="text" name="phoneNumber" id="phoneNumber" autocomplete="Phone Number" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Phone no*">
+              <input type="text" name="phoneNumber" id="phoneNumber" autocomplete="Phone Number" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Phone no">
               <input type="text" name="email" id="email" autocomplete="email" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Email*" required>
-              <input type="text" name="companyName" id="companyName" autocomplete="companyName" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Company Name*">
+              <input type="text" name="companyName" id="companyName" autocomplete="companyName" class="block flex-1 border-0 bg-white py-1.5 pl-1 px-[22%] text-gray-900" placeholder="Company Name">
               <div class="mt-2">
-                <textarea id="about" name="about" rows="3" class="block w-[300px] lg:w-[350px] rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                <textarea id="about" name="about" rows="3" class="block w-[300px] lg:w-[350px] rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Message"></textarea>
               </div>
-              <button type="submit" class="rounded-sm border-[1px] px-[37%] md:px-[30%] py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+              <button type="submit" class="rounded-sm border-[1px] px-[37%] md:px-[30%] py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
             </form>
           </div>
         </div>
@@ -213,13 +212,13 @@
       <nav class="flex justify-center items-center flex-col md:flex-row pt-4">
         <div class="logo w-[50%] md:w-[30%]"><img class="md:w-[80%]" src="./assets/allied intuit-03.png" alt=""></div>
         <ul class="flex justify-center flex-col md:flex-row w-[70%] mt-[10%] md:mt-0 items-center gap-3 md:gap-5">
-          <li><a class="text-[0.75rem]" href="#">Home</a></li>
-          <li><a class="text-[0.75rem]" href="#">About Us</a></li>
-          <li><a class="text-[0.75rem]" href="#">Transformation</a></li>
-          <li><a class="text-[0.75rem]" href="#">Services</a></li>
-          <li><a class="text-[0.75rem]" href="#">Experience</a></li>
-          <li><a class="text-[0.75rem]" href="#">Key Profile</a></li>
-          <li><a class="text-[0.75rem]" href="#">Contact Us</a></li>
+          <li><a class="text-[0.75rem]" href="#home">Home</a></li>
+          <li><a class="text-[0.75rem]" href="#about-us">About Us</a></li>
+          <li><a class="text-[0.75rem]" href="#transformation">Transformation</a></li>
+          <li><a class="text-[0.75rem]" href="#services">Services</a></li>
+          <li><a class="text-[0.75rem]" href="#experience">Experience</a></li>
+          <li><a class="text-[0.75rem]" href="#key-profile">Key Profile</a></li>
+          <li><a class="text-[0.75rem]" href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
       <h1 class="font-normal text-[0.75rem] text-center md:text-left md:text-[16px] leading-6 mt-[52px] mb-[50px]">© Copyright Allied Intuit 2023. All Rights Reserved</h1>
